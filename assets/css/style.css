@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Shippori+Mincho+B1');
+
+body {
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+.banner-image {
+  background-image: url("../img/carousel1.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  color: white;
+}
+
+.blue-square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.container div {
+  flex: 1;
+  margin: 10px;
+}
+
+#logNav {
+  width: 22pt;
+  height: auto;
+}
+
+#carouselExampleFade {
+  margin-top: -30pt;
+}
+
+/* quienes somos */
+
+#title {
+  color: whitesmoke;
+  margin-top: 30pt;
+  margin-bottom: 40pt;
+}
+
+body {
+  background-color: black;
+}
+
+
+.rectangulo {
+  padding: auto;
+  width: 100%;
+  height: 30pt;
+  background-color: rgb(33, 196, 218); /* Cambia esto al color que desees */
+  opacity: 0.9; /* Puedes ajustar la opacidad según tus preferencias */
+  margin-bottom: 20px;
+}
+
+#sep {
+  margin-bottom: 40pt;
+}
+
+#rect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 200pt;
+  height: 1vh;
+  margin-bottom: 20px;
+}
+
+#icon {
+  margin-top: 5pt;
+  margin-left: 50%;
+  font-size: 20pt;
+  background-color: rgb(33, 196, 218);
+  transform: translatex(-50%);
+}
+
+#blu {
+  background-color:  rgb(33, 196, 218); ;
+}
+
+#pTop {
+  margin-top: 30pt;
+}
+
+/* cards */
+
+.custom-background {
+  background-color: rgb(33, 196, 218);
+}
+
+.custom-img-height {
+  height: 90pt; 
+}
+
+h2 {
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 20px;
+}
+
+.card {
+  height: 95%;
+}
+
+#sectionCard {
+  margin-bottom: 40pt;
+}
+
+/* Formulario */
+
+form {
+  max-width: 80%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: rgb(33, 196, 218);
+  color: white;
+  cursor: pointer;
+  width: auto;
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+label {
+  color: white;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(33, 196, 218);
+  margin-top: 30pt;
+}
+
+h4 {
+  margin-left: 20%;
+  color: whitesmoke;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  
+}
+
+.social-icons {
+  margin-left: 40%; 
+  font-size: 20pt;
+}
